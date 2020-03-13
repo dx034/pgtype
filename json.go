@@ -2,7 +2,7 @@ package pgtype
 
 import (
 	"database/sql/driver"
-	"encoding/json"
+	json "github.com/json-iterator/go"
 
 	errors "golang.org/x/xerrors"
 )
